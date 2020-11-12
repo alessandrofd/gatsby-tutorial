@@ -1,16 +1,19 @@
 import React from "react"
 import Layout from "../components/Layout"
+import styles from "../components/products.module.css"
 
 const products = () => {
   return (
     <Layout>
-      <h1>This is our products page</h1>
-      <p className="products-text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-        similique perferendis? Magnam omnis voluptate cum consequuntur. Totam
-        natus reiciendis aliquam animi vero, veritatis modi earum minima
-        corporis cumque cum debitis!
-      </p>
+      <div className={styles.page}>
+        <h1>This is our products page</h1>
+        <p className={styles.text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
+          similique perferendis? Magnam omnis voluptate cum consequuntur. Totam
+          natus reiciendis aliquam animi vero, veritatis modi earum minima
+          corporis cumque cum debitis!
+        </p>
+      </div>
     </Layout>
   )
 }

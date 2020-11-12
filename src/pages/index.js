@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/Layout"
+import { ExampleButton } from "../components/button"
 
 export default () => (
   <Layout>
@@ -8,5 +9,6 @@ export default () => (
     </h1>
     <h1>Hello Word!</h1>
     <h1>Hello People!</h1>
+    <ExampleButton>Click Me</ExampleButton>
   </Layout>
 )
