@@ -1,12 +1,14 @@
 import React from "react"
-import Header from "../examples/Header"
 import Layout from "../components/Layout"
+import Header from "../examples/Header"
+import HeaderStatic from "../examples/HeaderStatic"
 
 const examples = () => {
   return (
     <Layout>
       <h1>This is our Examples page.</h1>
       <Header />
+      <HeaderStatic />
     </Layout>
   )
 }
