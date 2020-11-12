@@ -14,7 +14,7 @@ const examples = ({ data }) => {
 
   return (
     <Layout>
-      <h1>This is our Examples page.</h1>
+      <p>This is our Examples page.</p>
       <Header />
       <HeaderStatic />
       <h5>author: {author}</h5>
