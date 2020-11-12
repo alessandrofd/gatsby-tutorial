@@ -23,5 +23,14 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `3o2914b2zflq`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: `1PNHujGpxTyxuorCgQZjwOFar0TteVNAJ-_ghB_u0_k`,
+      },
+    },
+    },
   ],
 }
