@@ -37,7 +37,7 @@ const Images = () => {
     <section className="images">
       <article className="single-image">
         <h3>basic image</h3>
-        <img src={img} width="100%" />
+        <img src={img} width="100%" alt="example" />
         <h2>Content</h2>
       </article>
       <article className="single-image">
